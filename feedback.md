@@ -25,24 +25,23 @@
 
 ## Functional Requirements/Manual Testing
 
-| Functional Requirement                                                                      | yes/no |
-| ------------------------------------------------------------------------------------------- | ------ |
-| Successfully handles index & show                                                           | ✔️?     |
-| **Optional** index & show tests pass                                                        | ✔️?     |
-| Successfully handles: New, Create                                                           | ✔️?     |
-| **Optional** New, Create tests pass                                                         | ✔️?     |
-| Successfully handles: Edit, Update                                                          | ✔️?     |
-| **Optional** Edit, Update tests pass with valid & invalid task ids                          | ✔️?     |
-| Successfully handles: Destroy, Task Complete                                                | ✔️?     |
-| **Optional** Tests for Destroy & Task Complete include tests for valid and invalid task ids | ✔️?     |
+
+| Functional Requirement                                    | yes/no |
+| --------------------------------------------------------- | ------ |
+| Successfully handles index & show                         | ✔️?     |
+| **optional** index & show tests pass                      | ✔️?     |
+| Successfully handles: New, Create                         | ✔️?     |
+| **optional** New, Create tests pass                       | ✔️?     |
+| Successfully handles: Edit, Update                        | ✔️?     |
+| **optional** Successfully handles: Destroy, Task Complete | ✔️?     |
 
 ## Overall Feedback
 
 | Overall Feedback                | Criteria                                                                                                                                                                                      | yes/no |
 | ------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ |
-| Green (Meets/Exceeds Standards) | 5+ in Code Review && 6+ in Functional Requirements                                                                                                                                            |
-| Yellow (Approaches Standards)   | 3+ in Code Review && 5+ in Functional Requirements, or the instructor judges that this project needs special attention                                                                        |
-| Red (Not at Standard)           | 0-2 in Code Review or 0-4 in Functional Reqs, or assignment is breaking/doesn’t run with less than 5 minutes of debugging, or the instructor judges that this project needs special attention |
+| Green (Meets/Exceeds Standards) | 5+ in Code Review && 2+ in Functional Requirements                                                                                                                                            |
+| Yellow (Approaches Standards)   | 3+ in Code Review && 4+ in Functional Requirements, or the instructor judges that this project needs special attention                                                                        |
+| Red (Not at Standard)           | 0-2 in Code Review or 0-3 in Functional Reqs, or assignment is breaking/doesn’t run with less than 5 minutes of debugging, or the instructor judges that this project needs special attention |
 
 <!-- ### Additional Feedback -->
 
@@ -61,4 +60,3 @@ Was the code particularly impressive in code style for any of these reasons (or 
 | Descriptive/Readable | ✅    |
 | Concise              | ✅    |
 | Logical/Organized    | ✅    |
-
