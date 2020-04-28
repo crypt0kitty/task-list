@@ -25,16 +25,16 @@
 
 ## Functional Requirements/Manual Testing
 
-| Functional Requirement                                                         | yes/no |
-| ------------------------------------------------------------------------------ | ------ |
-| Successfully handles index & show                                              | ✔️?     |
-| index & show tests pass                                                        | ✔️?     |
-| Successfully handles: New, Create                                              | ✔️?     |
-| New, Create tests pass                                                         | ✔️?     |
-| Successfully handles: Edit, Update                                             | ✔️?     |
-| Edit, Update tests pass with valid & invalid task ids                          | ✔️?     |
-| Successfully handles: Destroy, Task Complete                                   | ✔️?     |
-| Tests for Destroy & Task Complete include tests for valid and invalid task ids | ✔️?     |
+| Functional Requirement                                                                      | yes/no |
+| ------------------------------------------------------------------------------------------- | ------ |
+| Successfully handles index & show                                                           | ✔️?     |
+| **Optional** index & show tests pass                                                        | ✔️?     |
+| Successfully handles: New, Create                                                           | ✔️?     |
+| **Optional** New, Create tests pass                                                         | ✔️?     |
+| Successfully handles: Edit, Update                                                          | ✔️?     |
+| **Optional** Edit, Update tests pass with valid & invalid task ids                          | ✔️?     |
+| Successfully handles: Destroy, Task Complete                                                | ✔️?     |
+| **Optional** Tests for Destroy & Task Complete include tests for valid and invalid task ids | ✔️?     |
 
 ## Overall Feedback
 
