@@ -38,9 +38,9 @@
 
 | Overall Feedback                | Criteria                                                                                                                                                                                      | yes/no |
 | ------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ |
-| Green (Meets/Exceeds Standards) | 5+ in Code Review && 6+ in Functional Requirements                                                                                                                                            |
-| Yellow (Approaches Standards)   | 3+ in Code Review && 5+ in Functional Requirements, or the instructor judges that this project needs special attention                                                                        |
-| Red (Not at Standard)           | 0-2 in Code Review or 0-4 in Functional Reqs, or assignment is breaking/doesn’t run with less than 5 minutes of debugging, or the instructor judges that this project needs special attention |
+| Green (Meets/Exceeds Standards) | 5+ in Code Review && 5+ in Functional Requirements                                                                                                                                            |
+| Yellow (Approaches Standards)   | 3+ in Code Review && 4+ in Functional Requirements, or the instructor judges that this project needs special attention                                                                        |
+| Red (Not at Standard)           | 0-2 in Code Review or 0-3 in Functional Reqs, or assignment is breaking/doesn’t run with less than 5 minutes of debugging, or the instructor judges that this project needs special attention |
 
 <!-- ### Additional Feedback -->
 
