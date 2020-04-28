@@ -34,7 +34,6 @@
 | Successfully handles: Edit, Update                                             | ✔️?     |
 | Edit, Update tests pass with valid & invalid task ids                          | ✔️?     |
 | Successfully handles: Destroy, Task Complete                                   | ✔️?     |
-| Tests for Destroy & Task Complete include tests for valid and invalid task ids | ✔️?     |
 
 ## Overall Feedback
 
@@ -61,4 +60,3 @@ Was the code particularly impressive in code style for any of these reasons (or 
 | Descriptive/Readable | ✅    |
 | Concise              | ✅    |
 | Logical/Organized    | ✅    |
-
