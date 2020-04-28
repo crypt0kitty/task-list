@@ -32,7 +32,6 @@
 | Successfully handles: New, Create                                              | ✔️?     |
 | New, Create tests pass                                                         | ✔️?     |
 | Successfully handles: Edit, Update                                             | ✔️?     |
-| Edit, Update tests pass with valid & invalid task ids                          | ✔️?     |
 | Successfully handles: Destroy, Task Complete                                   | ✔️?     |
 
 ## Overall Feedback
