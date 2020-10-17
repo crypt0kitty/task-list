@@ -18,6 +18,10 @@ ADD $SUBMISSION_SUBFOLDER /app
 # COPY ./Gemfile .
 RUN gem install bundler
 RUN bundle install
+RUN yarn
+
+RUN rails db:reset
+RUN rails db:migrate
 
 # Overwrite the script and test files
 ADD test.sh /app
