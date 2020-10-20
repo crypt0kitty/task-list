@@ -12,4 +12,6 @@ before_script:
   - bundle exec rake db:create
   - bundle exec rake db:schema:load
 script:
+  - 'if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then bash ./travis/run_on_pull_requests; fi'
+  - 'if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then bash ./travis/run_on_non_pull_requests; fi'
   - bundle exec rails test
