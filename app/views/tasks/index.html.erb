@@ -1,9 +1,15 @@
-<h1>Tasks</h1>
-  <% @tasks.each do |task|  %>
-    <ul>
-      <li> <%= task.name %>
-      <ul>
-        <li><%= task.description %></li>
-      </ul>
-    </ul>
-  <% end %>
+<!--<h1>Tasks</h1>-->
+  <%# @tasks.each do |task|  %>
+<!--    <ul>-->
+<!--      <li> <%#= task.name %>-->
+<!--        <a href = '/tasks/<%#=task.id %>'> Link to page </a>-->
+
+<h1>To do List</h1>
+<ol id = "tasks">
+  <% @tasks.each do |task| %>
+    <li><%= link_to task.name, {:action => 'show', :id => task.id} %></li>
+<!--    <a href = '/tasks/<%#=task.id %>'> Link to page </a> using html-->
+<% end %>
+</ol>
+
+<p><%= link_to "Add a new task", {:action => 'new' }%></p>
