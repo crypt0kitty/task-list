@@ -70,7 +70,6 @@ class TasksController < ApplicationController
     else
       task.completed_at = nil
     end
-
     task.save
     redirect_to action: :index
   end
