@@ -21,7 +21,7 @@ class TasksController < ApplicationController
       redirect_to action: :index # go to the index so we can see the book in the list
       return
     else # save failed :(
-    render :new # show the new book form view again
+    render :new, :bad_request# show the new book form view again
     return
     end
   end
@@ -49,13 +49,16 @@ class TasksController < ApplicationController
   end
 
   def destroy
-    task_id = params[:id]
-    @task = Task.find_by(id: task_id)
+    @task = Task.find_by_id(params[:id])
+    if @task.nil?
+      redirect_to action: :index, status: :not_found
+      return
+    end
 
     if @task.destroy
       flash[:success] = 'It worked!'
     else
-      flash[:warning] = 'Something went wrong.'
+      head :not_found
     end
     redirect_to action: :index
   end
@@ -63,9 +66,9 @@ class TasksController < ApplicationController
   def toggle_complete
     task = Task.find_by_id(params[:id])
     if task.completed_at.nil?
-      task.completed_at = nil
-    else
       task.completed_at = Time.now
+    else
+      task.completed_at = nil
     end
 
     task.save
@@ -74,7 +77,6 @@ class TasksController < ApplicationController
 
   private
   def task_params
-    return params.require(:task).permit(:name, :description, :completed)
+    return params.require(:task).permit(:name, :description, :completed_at)
   end
-
 end
